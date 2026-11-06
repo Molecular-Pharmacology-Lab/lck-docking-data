@@ -1,0 +1,11 @@
+﻿# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Temporales y backups
+*.tmp
+*~
+*.bak
+
+# Si hay trayectorias o archivos pesados que no van, agregalos acá

@@ -1,0 +1,33 @@
+loading receptor: SH3_recH.pdbqt
+set box using user
+    Box center:   -11.230    16.307    10.611
+    Box length:    24.000    20.000    24.000
+    Box size  :        64        54        64
+    padding   :     0.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+    found 5 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -151.07   460    6.02     -0.33      0.74      42.18
+        2   -157.53   494    6.48     -0.32      0.74      41.52
+        3    -73.12   232    4.16     -0.32      0.75      31.71
+        4    -61.60   220    4.12     -0.28      0.72      27.90
+        5    -34.29   122    3.16     -0.28      0.73      20.82
+    merging clusters ...
+done. got 218 fill Points, in 4.38 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-11.230 16.307 10.611) size=(24.000 20.000 24.000) dims=(64 54 64) ...
+    211 points inside the box
+
+    maps computed in 1.98 (sec)
+Adding gradient to maps ...
+done adding gradient to maps 32.36 (sec)
+making target file redocking_SH3.trg ...done.
+    done. 36.76 (sec)
+
